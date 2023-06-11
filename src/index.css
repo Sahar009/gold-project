@@ -1,13 +1,30 @@
-body {
+
+  @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  
+  color:  #e3e5ec;
+  font-family: 'Annie Use Your Telescope', cursive;
+}
+
+a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Annie Use Your Telescope', cursive;
 }
